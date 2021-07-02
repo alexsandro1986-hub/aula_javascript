@@ -7,8 +7,17 @@
     <title>Document</title>
     <script type="text/javascript" src="js/main.js"></script>
 </head>
-<body>
-    <h1>minha pagina</h1>
+<body onload="load()">
+    <button type="button" onclick="clicou()">clique aqui</button>
+    <p id="agradecimento" onclick=" redirecionar()"></p>
+    <p onmouseover=" trocar(this)" onmouseout ="voltar(this)">Passe o mouse</p>
+    <p onmouseover=" trocar(this)" onmouseout ="voltar(this)">Passe o mouse</p>
+    <p onmouseover=" trocar(this)" onmouseout ="voltar(this)">Passe o mouse</p>
+
+    <select onchange = "funcaochange(this)">
+        <option value="1">valor 1</option>   
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
 </body>
 </html>
-
